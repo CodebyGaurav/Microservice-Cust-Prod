@@ -1,0 +1,27 @@
+# Product Add
+url : http://localhost:9000/product/
+method: Post
+body: {
+          "productName":"laptop",
+          "productPrice":1000000
+      }
+
+# Product Get
+url : http://localhost:9000/product/
+method: Get
+
+# Customer Add
+url : http://localhost:8002/customer/
+method: Post
+body: {
+          "custName": "Aakash",
+          "custAddress": "XYZ Delhi",
+          "pid":"1"
+      }
+
+
+# Customer Get
+Url: http://localhost:8002/customer/myorders/1
+method: Get
+
+
